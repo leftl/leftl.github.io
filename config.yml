@@ -1,5 +1,5 @@
 baseURL: "https://twtrs.com"
-title: Hi, I'm Tyler
+title: "[tyler@twtrs.com] ~ $"
 paginate: 5
 theme: PaperMod
 
@@ -88,7 +88,7 @@ params:
           url: "https://github.com/leftl"
         - name: email
           url: "mailto:tyler@twtrs.com"
-        - name: RsS
+        - name: RSS
           url: "index.xml"
 
     editPost:
