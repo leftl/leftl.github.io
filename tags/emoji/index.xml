@@ -12,10 +12,10 @@
     <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://twtrs.com/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji Support</title>
-      <link>https://twtrs.com/posts/emoji-support/</link>
+      <link>https://twtrs.com/2019/03/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://twtrs.com/posts/emoji-support/</guid>
+      <guid>https://twtrs.com/2019/03/emoji-support/</guid>
       <description>Guide to emoji usage in Hugo</description>
     </item>
     

@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://twtrs.com/posts/papermod/papermod-installation/</loc>
+    <loc>https://twtrs.com/2021/01/installation-update/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://twtrs.com/posts/papermod/papermod-features/</loc>
+    <loc>https://twtrs.com/2021/01/features/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/</loc>
@@ -41,7 +41,7 @@
     <loc>https://twtrs.com/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://twtrs.com/posts/markdown-syntax/</loc>
+    <loc>https://twtrs.com/2019/03/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/categories/syntax/</loc>
@@ -59,25 +59,25 @@
     <loc>https://twtrs.com/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://twtrs.com/posts/rich-content/</loc>
+    <loc>https://twtrs.com/2019/03/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://twtrs.com/posts/placeholder-text/</loc>
+    <loc>https://twtrs.com/2019/03/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://twtrs.com/posts/math-typesetting/</loc>
+    <loc>https://twtrs.com/2019/03/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://twtrs.com/posts/emoji-support/</loc>
+    <loc>https://twtrs.com/2019/03/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/archives/</loc>
