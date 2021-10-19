@@ -166,3 +166,6 @@ services:
         disableInlineCSS: true
     twitter:
         disableInlineCSS: true
+
+permalinks:
+  posts: /:year/:month/:title/
