@@ -9,85 +9,40 @@
       <link>https://twtrs.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://twtrs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Oct 2021 20:13:45 -0700</lastBuildDate><atom:link href="https://twtrs.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>PaperMod</title>
-      <link>https://twtrs.com/tags/papermod/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <title>development</title>
+      <link>https://twtrs.com/tags/development/</link>
+      <pubDate>Tue, 19 Oct 2021 20:13:45 -0700</pubDate>
       
-      <guid>https://twtrs.com/tags/papermod/</guid>
+      <guid>https://twtrs.com/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>css</title>
-      <link>https://twtrs.com/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>gdb</title>
+      <link>https://twtrs.com/tags/gdb/</link>
+      <pubDate>Tue, 19 Oct 2021 20:13:45 -0700</pubDate>
       
-      <guid>https://twtrs.com/tags/css/</guid>
+      <guid>https://twtrs.com/tags/gdb/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>https://twtrs.com/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>vs code</title>
+      <link>https://twtrs.com/tags/vs-code/</link>
+      <pubDate>Tue, 19 Oct 2021 20:13:45 -0700</pubDate>
       
-      <guid>https://twtrs.com/tags/html/</guid>
+      <guid>https://twtrs.com/tags/vs-code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>https://twtrs.com/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>c/c&#43;&#43;</title>
+      <link>https://twtrs.com/tags/c/c&#43;&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://twtrs.com/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://twtrs.com/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://twtrs.com/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>https://twtrs.com/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://twtrs.com/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://twtrs.com/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://twtrs.com/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>text</title>
-      <link>https://twtrs.com/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://twtrs.com/tags/text/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emoji</title>
-      <link>https://twtrs.com/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://twtrs.com/tags/emoji/</guid>
+      <guid>https://twtrs.com/tags/c/c&#43;&#43;/</guid>
       <description></description>
     </item>
     

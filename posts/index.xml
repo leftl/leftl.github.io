@@ -9,50 +9,15 @@
       <link>https://twtrs.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://twtrs.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Oct 2021 20:13:45 -0700</lastBuildDate><atom:link href="https://twtrs.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://twtrs.com/2019/03/markdown-syntax-guide/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Visual Debugging on VS Code Using GDB</title>
+      <link>https://twtrs.com/2021/10/visual-debugging-on-vs-code-using-gdb/</link>
+      <pubDate>Tue, 19 Oct 2021 20:13:45 -0700</pubDate>
       
-      <guid>https://twtrs.com/2019/03/markdown-syntax-guide/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://twtrs.com/2019/03/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://twtrs.com/2019/03/rich-content/</guid>
-      <description>A brief description of Hugo Shortcodes</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://twtrs.com/2019/03/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://twtrs.com/2019/03/placeholder-text/</guid>
-      <description>Lorem Ipsum Dolor Si Amet</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://twtrs.com/2019/03/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://twtrs.com/2019/03/math-typesetting/</guid>
-      <description>A brief guide to setup KaTeX</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://twtrs.com/2019/03/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://twtrs.com/2019/03/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
+      <guid>https://twtrs.com/2021/10/visual-debugging-on-vs-code-using-gdb/</guid>
+      <description>If you&amp;rsquo;re already developing a C/C++ project in VS Code, configuring the built-in debugger will allow you to fully use features already within the IDE with only a single configuration file. To those are used to debugging in IDEs like IntelliJ or Visual Studio, this is a much more familiar and pleasant experience. Additionally, this can be done both locally and over SSH via the Remote - SSH extension.
+For Computer Science &amp;amp; Engineering courses at the UW, I typically open the folder containing my entire repo in VS Code (i.</description>
     </item>
     
   </channel>
