@@ -9,13 +9,31 @@
       <link>https://twtrs.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 19 Oct 2021 20:13:45 -0700</lastBuildDate><atom:link href="https://twtrs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Oct 2021 20:46:47 -0700</lastBuildDate><atom:link href="https://twtrs.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>development</title>
       <link>https://twtrs.com/tags/development/</link>
-      <pubDate>Tue, 19 Oct 2021 20:13:45 -0700</pubDate>
+      <pubDate>Mon, 25 Oct 2021 20:46:47 -0700</pubDate>
       
       <guid>https://twtrs.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open source</title>
+      <link>https://twtrs.com/tags/open-source/</link>
+      <pubDate>Mon, 25 Oct 2021 20:46:47 -0700</pubDate>
+      
+      <guid>https://twtrs.com/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://twtrs.com/tags/software/</link>
+      <pubDate>Mon, 25 Oct 2021 20:46:47 -0700</pubDate>
+      
+      <guid>https://twtrs.com/tags/software/</guid>
       <description></description>
     </item>
     
