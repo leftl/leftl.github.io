@@ -21,7 +21,7 @@ The problems is set-up as seen here: [Set Matrix Zeroes - LeetCode](https://leet
 
 We will be discussing the optimal solution, which has an additional constraint: space must be `O(1)`, also known as constant-space. This means we cannot create a copy of the matrix or use any other data structures which depend on `m` and/or `n` (e.g. arrays, lists, maps).
 
-The following image depicts the expected output of the algorithm, following the order *input -> output*. We can see the only `0` in the input on the input is in the intersection of the third row from the top (index: `2`) and the 2nd column from the left (index: `1`). We will represent this position as the tuple, `(1,2)`.
+The following image depicts the expected output of the algorithm, following the order *input -> output*. We can see the only `0` in the input on the input is in the intersection of the third row from the top (index: `2`) and the 2nd column from the left (index: `1`). We will represent this position as the tuple, `(2,1)`.
 
 ![Input → Output (Source: leetcode.com)](example-input-output.png)
 
