@@ -1,7 +1,7 @@
 ---
 title: "Leetcode: Set Matrix Zeroes (Part 1)"
 date: 2021-11-04T18:47:23-07:00
-draft: true
+draft: flase
 tags: ["software", "development", "algorithms", "leetcode", "c/c++"]
 ---
 This problem, of **medium** difficulty, sounds trivial at first glance. However, given the constraints, it's not as straightforward as it initially appears. 
