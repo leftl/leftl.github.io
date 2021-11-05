@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>algorithms on [tyler@twtrs.com] ~ $</title>
+    <link>https://twtrs.com/tags/algorithms/</link>
+    <description>Recent content in algorithms on [tyler@twtrs.com] ~ $</description>
+    <image>
+      <url>https://twtrs.com/papermod-cover.png</url>
+      <link>https://twtrs.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 04 Nov 2021 18:47:23 -0700</lastBuildDate><atom:link href="https://twtrs.com/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode: Set Matrix Zeroes (Part 1)</title>
+      <link>https://twtrs.com/2021/11/leetcode-set-matrix-zeroes-part-1/</link>
+      <pubDate>Thu, 04 Nov 2021 18:47:23 -0700</pubDate>
+      
+      <guid>https://twtrs.com/2021/11/leetcode-set-matrix-zeroes-part-1/</guid>
+      <description>This problem, of medium difficulty, sounds trivial at first glance. However, given the constraints, it&amp;rsquo;s not as straightforward as it initially appears.
+The Problem The problems is set-up as seen here: Set Matrix Zeroes - LeetCode
+ Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0&amp;rsquo;s, and return the matrix.
+You must do it in place.
+Constraints:
+ m == matrix.</description>
+    </item>
+    
+  </channel>
+</rss>

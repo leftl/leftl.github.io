@@ -3,24 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://twtrs.com/</loc>
-    <lastmod>2021-10-25T20:46:47-07:00</lastmod>
+    <lastmod>2021-11-04T18:47:23-07:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/algorithms/</loc>
+    <lastmod>2021-11-04T18:47:23-07:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/tags/development/</loc>
-    <lastmod>2021-10-25T20:46:47-07:00</lastmod>
+    <lastmod>2021-11-04T18:47:23-07:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/leetcode/</loc>
+    <lastmod>2021-11-04T18:47:23-07:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/2021/11/leetcode-set-matrix-zeroes-part-1/</loc>
+    <lastmod>2021-11-04T18:47:23-07:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/posts/</loc>
+    <lastmod>2021-11-04T18:47:23-07:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/software/</loc>
+    <lastmod>2021-11-04T18:47:23-07:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/</loc>
+    <lastmod>2021-11-04T18:47:23-07:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/tags/open-source/</loc>
     <lastmod>2021-10-25T20:46:47-07:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/2021/10/open-source-highlight-jellyfin/</loc>
-    <lastmod>2021-10-25T20:46:47-07:00</lastmod>
-  </url><url>
-    <loc>https://twtrs.com/posts/</loc>
-    <lastmod>2021-10-25T20:46:47-07:00</lastmod>
-  </url><url>
-    <loc>https://twtrs.com/tags/software/</loc>
-    <lastmod>2021-10-25T20:46:47-07:00</lastmod>
-  </url><url>
-    <loc>https://twtrs.com/tags/</loc>
     <lastmod>2021-10-25T20:46:47-07:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/tags/gdb/</loc>
