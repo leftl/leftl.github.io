@@ -15,8 +15,8 @@
       <pubDate>Sun, 07 Nov 2021 12:33:43 -0800</pubDate>
       
       <guid>https://twtrs.com/2021/11/leetcode-set-matrix-zeroes-part-2/</guid>
-      <description>Continuing where we left off last week, let&amp;rsquo;s finally dicuss the optimal solution to the Set Matrix Zeroes problem from LeetCode. If you have not read Part 1, please do so! In the previous post, we discussed the problem &amp;amp; constraints, as well as some intuition behind the solution. Using what we now know, let&amp;rsquo;s go over the algorithm!
-The Solution Recalling our constant-space requirement, and the issues that can come from writing zeroes before completing the first read, how can we safely indicate which rows and columns will be set to zero without compromising correctness?</description>
+      <description>Continuing where we left off last week, let&amp;rsquo;s finally dicuss the optimal solution to the Set Matrix Zeroes problem from LeetCode. If you have not read Part 1, please do so! In the previous post, we discussed the problem &amp;amp; constraints, as well as some intuition behind the solution. Building off of this intuition, let&amp;rsquo;s go over the algorithm!
+The Solution Recalling our constant-space requirement, and the conflicts that can come from writing zeroes before completing the first read, how can we safely indicate which rows and columns will be set to zero without compromising correctness?</description>
     </item>
     
     <item>
