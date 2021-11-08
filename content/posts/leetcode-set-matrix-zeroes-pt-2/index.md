@@ -17,7 +17,7 @@ Now that we know where zeroes need to be filled, all that is left is to fill zer
 
 ![Example: overwriting column with flag at (0,0)](column-flag-issue.png)
 
-What went wrong? Since there was a zero in the first row, specifically at `(1,0)`, when we set the flag in this column, it's written at `(0,0)`. This seems fine until we iterate through the first row. The flag at the `(0,0)` position pertains only to the column, not the row. So, as zeroes are filled, the flag incorrectly indicates that the first row must also be overwritten with zeroes. This is **incorrect**. But how can we fix it?
+Looking at the element shaded red, at position `(0,2)`, a zero has been incorrectly placed. There is no zero in the corresponding row or column defining this element. What went wrong? Since there was a zero in the first row, specifically at `(1,0)`, when we set the flag in this column, it's written at `(0,0)`. This seems fine until we iterate through the first row. The flag at the `(0,0)` position pertains only to the column, not the row. So, as zeroes are filled, the flag incorrectly indicates that the first row must also be overwritten with zeroes. This is **incorrect**. But how can we fix it?
 
 Instead of writing a flag in the matrix if the first column must be overwritten, a single boolean can be used. That is, we will not write a zero at `(0,0)`, but instead set a bool `col_fill = true`. As a result, we will check this bool value when setting zeroes for the column, rather than the element `(0,0)`. That element can now be used safely as a flag for **just** the first row.
 
@@ -67,8 +67,6 @@ public:
 
 ## Run-time & Correctness
 Since we have to read **all** of the elements at least once to discover which elements are zero, we can have no fewer than `m * n` operations. Note that only two traversals of the matrix were required for this solution: one to read the zeroes and one to write the zeroes. Therefore, the runtime is O(n * n).
-
- 
 
 Additionally, since we only declare a single variable in the algorithm, it must be the case that the space complexity is constant, i.e. O(1).
 
