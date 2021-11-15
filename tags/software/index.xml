@@ -9,7 +9,17 @@
       <link>https://twtrs.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Nov 2021 12:33:43 -0800</lastBuildDate><atom:link href="https://twtrs.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Nov 2021 18:48:24 -0800</lastBuildDate><atom:link href="https://twtrs.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsibian: Smart Plaintext Notes</title>
+      <link>https://twtrs.com/2021/11/obsibian-smart-plaintext-notes/</link>
+      <pubDate>Sun, 14 Nov 2021 18:48:24 -0800</pubDate>
+      
+      <guid>https://twtrs.com/2021/11/obsibian-smart-plaintext-notes/</guid>
+      <description>Obsibian: Smart Plaintext Notes Obsidian is a modern cross-platform note-taking application. By adapting my note-taking habits to fit the strengths of Obsidian, my notes have become more meaningful in content and reviewability. Those familiar with Notion and similar note-taking applications will feel right at home, but what makes Obsidian different?
+Features: Backlinking  The star of the show: linking notes to build connections. It sounds pretty inconsequential, but it is great for helping structure your notes in more meaningful ways improving the value of your notes.</description>
+    </item>
+    
     <item>
       <title>Leetcode: Set Matrix Zeroes (Part 2)</title>
       <link>https://twtrs.com/2021/11/leetcode-set-matrix-zeroes-part-2/</link>

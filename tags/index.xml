@@ -9,7 +9,34 @@
       <link>https://twtrs.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Nov 2021 12:33:43 -0800</lastBuildDate><atom:link href="https://twtrs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Nov 2021 18:48:24 -0800</lastBuildDate><atom:link href="https://twtrs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>academics</title>
+      <link>https://twtrs.com/tags/academics/</link>
+      <pubDate>Sun, 14 Nov 2021 18:48:24 -0800</pubDate>
+      
+      <guid>https://twtrs.com/tags/academics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://twtrs.com/tags/markdown/</link>
+      <pubDate>Sun, 14 Nov 2021 18:48:24 -0800</pubDate>
+      
+      <guid>https://twtrs.com/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://twtrs.com/tags/software/</link>
+      <pubDate>Sun, 14 Nov 2021 18:48:24 -0800</pubDate>
+      
+      <guid>https://twtrs.com/tags/software/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>algorithms</title>
       <link>https://twtrs.com/tags/algorithms/</link>
@@ -34,15 +61,6 @@
       <pubDate>Sun, 07 Nov 2021 12:33:43 -0800</pubDate>
       
       <guid>https://twtrs.com/tags/leetcode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://twtrs.com/tags/software/</link>
-      <pubDate>Sun, 07 Nov 2021 12:33:43 -0800</pubDate>
-      
-      <guid>https://twtrs.com/tags/software/</guid>
       <description></description>
     </item>
     
