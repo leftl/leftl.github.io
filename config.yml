@@ -59,6 +59,8 @@ params:
     tocopen: false
     # comments requires an additional service. to be added.
     comments: false
+    # enable math typesetting site-wide
+    math: true
     images: ["papermod-cover.png"]
 
     profileMode:
