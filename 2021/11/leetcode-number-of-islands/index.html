@@ -5,7 +5,7 @@
 <meta name=robots content="index, follow">
 <title>LeetCode: Number of Islands | [tyler@twtrs.com] ~ $</title>
 <meta name=keywords content="software,development,algorithms,leetcode,c/c++">
-<meta name=description content="LeetCode: Number of Islands For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it&rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.">
+<meta name=description content="For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it&rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.">
 <meta name=author content="Tyler Waters">
 <link rel=canonical href=https://twtrs.com/2021/11/leetcode-number-of-islands/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
@@ -22,7 +22,7 @@
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
 </noscript><meta property="og:title" content="LeetCode: Number of Islands">
-<meta property="og:description" content="LeetCode: Number of Islands For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it&rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.">
+<meta property="og:description" content="For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it&rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://twtrs.com/2021/11/leetcode-number-of-islands/"><meta property="og:image" content="https://twtrs.com/papermod-cover.png"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2021-11-22T19:24:35-08:00">
@@ -30,9 +30,9 @@
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://twtrs.com/papermod-cover.png">
 <meta name=twitter:title content="LeetCode: Number of Islands">
-<meta name=twitter:description content="LeetCode: Number of Islands For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it&rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.">
+<meta name=twitter:description content="For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it&rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://twtrs.com/posts/"},{"@type":"ListItem","position":3,"name":"LeetCode: Number of Islands","item":"https://twtrs.com/2021/11/leetcode-number-of-islands/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"LeetCode: Number of Islands","name":"LeetCode: Number of Islands","description":"LeetCode: Number of Islands For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it\u0026rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.","keywords":["software","development","algorithms","leetcode","c/c++"],"articleBody":"LeetCode: Number of Islands For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it’s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.\nThe Problem The problem, Number of Islands - LeetCode is as follows:\n Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.\nAn island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.\nConstraints:\n m == grid.length n == grid[i].length 1  grid[i][j] is '0' or '1'.   Example: Input: grid = [['1', '1', '1', '1'], ['1', '1', '0', '0'], ['0', '0', '1', '1'], ['1', '0', '0', '0']] Output: 3 Approach: The approach leverages recursion and uses depth-first search (DFS) to discover all elements composing a single island. Then, we must simply count each island that is fully discovered.\n First, find an island. If no island is found, the expected output is 0. Upon the first piece of land found (i.e. an element is '1'), discover the rest of the island. Using recursion \u0026 DFS, we can explore all adjacent nodes and their neighbors, overwriting all elements indicating land with '0', marking it as explored. After the DFS has been completed, marking the entirety of one island as explored, increment a counter. Repeat this process for all elements in the input, grid. Return the value of the counter.  It’s worth noting that since the input is passed by reference, the modifications made to the input will modify the data in the caller’s scope. However, since there is no restriction against this, we can save time \u0026 space by not creating a copy of the grid and instead directly modify the input.\nclass Solution { public: int dx[4] = {0, 0, -1, 1}; // adjacencies (x-axis)  int dy[4] = {-1, 1, 0, 0}; // adjacencies (y-axis)  int m, n; int numIslands(vectorvectorchar\u0026 grid) { m = grid.size(); n = grid[0].size(); int numIslands = 0; for (int i = 0; i  m; i++) { for (int j = 0; j  n; j++) { if (grid[i][j] == '1') { exploreIsland(grid, i, j); numIslands++; } } } return numIslands; } // DFS search for immediately neighboring land.  void exploreIsland(vectorvectorchar\u0026 grid, int i, int j) { if (i  0 || i = m || j  0 || j = n) { return; } if (grid[i][j] == '0') { return; } grid[i][j] = '0'; for (int k = 0; k  4; k++){ exploreIsland(grid, i + dy[k], j + dx[k]); } } }; Run-time: Note that through the nested loops in the numIslands function, we will visit each element once (input size is $m \\times n$) to find the land of an island. However, during the DFS search in destroyIslands, we may visit elements that have not yet been visited by the outer loops. That means each node may be visited twice in the worst case, so we see a run-time of O(m * n).\n","wordCount":"564","inLanguage":"en","datePublished":"2021-11-22T19:24:35-08:00","dateModified":"2021-11-22T19:24:35-08:00","author":{"@type":"Person","name":"Tyler Waters"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://twtrs.com/2021/11/leetcode-number-of-islands/"},"publisher":{"@type":"Organization","name":"[tyler@twtrs.com] ~ $","logo":{"@type":"ImageObject","url":"https://twtrs.com/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"LeetCode: Number of Islands","name":"LeetCode: Number of Islands","description":"For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it\u0026rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.","keywords":["software","development","algorithms","leetcode","c/c++"],"articleBody":"For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it’s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.\nThe Problem The problem, Number of Islands - LeetCode is as follows:\n Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.\nAn island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.\nConstraints:\n m == grid.length n == grid[i].length 1  grid[i][j] is '0' or '1'.   Example Input: grid = [['1', '1', '1', '1'], ['1', '1', '0', '0'], ['0', '0', '1', '1'], ['1', '0', '0', '0']] Output: 3 Approach The approach leverages recursion and uses depth-first search (DFS) to discover all elements composing a single island. Then, we must simply count each island that is fully discovered.\n First, find an island. If no island is found, the expected output is 0. Upon the first piece of land found (i.e. an element is '1'), discover the rest of the island. Using recursion \u0026 DFS, we can explore all adjacent nodes and their neighbors, overwriting all elements indicating land with '0', marking it as explored. After the DFS has been completed, marking the entirety of one island as explored, increment a counter. Repeat this process for all elements in the input, grid. Return the value of the counter.  It’s worth noting that since the input is passed by reference, the modifications made to the input will modify the data in the caller’s scope. However, since there is no restriction against this, we can save time \u0026 space by not creating a copy of the grid and instead directly modify the input.\nclass Solution { public: int dx[4] = {0, 0, -1, 1}; // adjacencies (x-axis)  int dy[4] = {-1, 1, 0, 0}; // adjacencies (y-axis)  int m, n; int numIslands(vectorvectorchar\u0026 grid) { m = grid.size(); n = grid[0].size(); int numIslands = 0; for (int i = 0; i  m; i++) { for (int j = 0; j  n; j++) { if (grid[i][j] == '1') { exploreIsland(grid, i, j); numIslands++; } } } return numIslands; } // DFS search for immediately neighboring land.  void exploreIsland(vectorvectorchar\u0026 grid, int i, int j) { if (i  0 || i = m || j  0 || j = n) { return; } if (grid[i][j] == '0') { return; } grid[i][j] = '0'; for (int k = 0; k  4; k++){ exploreIsland(grid, i + dy[k], j + dx[k]); } } }; Run-time Note that through the nested loops in the numIslands function, we will visit each element once (input size is m * n) to find the land of an island. However, during the DFS search in destroyIslands, we may visit elements that have not yet been visited by the outer loops. That means each node may be visited twice in the worst case, so we see a run-time of O(m * n).\n","wordCount":"560","inLanguage":"en","datePublished":"2021-11-22T19:24:35-08:00","dateModified":"2021-11-22T19:24:35-08:00","author":{"@type":"Person","name":"Tyler Waters"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://twtrs.com/2021/11/leetcode-number-of-islands/"},"publisher":{"@type":"Organization","name":"[tyler@twtrs.com] ~ $","logo":{"@type":"ImageObject","url":"https://twtrs.com/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -85,30 +85,21 @@ LeetCode: Number of Islands
 </summary>
 <div class=inner><ul>
 <li>
-<a href=#leetcode-number-of-islands aria-label="LeetCode: Number of Islands">LeetCode: Number of Islands</a><ul>
-<ul>
-<li>
 <a href=#the-problem aria-label="The Problem">The Problem</a><ul>
-<ul>
 <li>
-<a href=#example aria-label=Example:>Example:</a></li></ul>
-</ul>
+<a href=#example aria-label=Example>Example</a></li></ul>
 </li>
 <li>
-<a href=#approach aria-label=Approach:>Approach:</a></li>
+<a href=#approach aria-label=Approach>Approach</a></li>
 <li>
-<a href=#run-time aria-label=Run-time:>Run-time:</a>
-</li>
-</ul>
-</ul>
+<a href=#run-time aria-label=Run-time>Run-time</a>
 </li>
 </ul>
 </div>
 </details>
 </div>
-<div class=post-content><h1 id=leetcode-number-of-islands>LeetCode: Number of Islands<a hidden class=anchor aria-hidden=true href=#leetcode-number-of-islands>#</a></h1>
-<p>For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the <a href=/2021/11/leetcode-set-matrix-zeroes-part-1/>last LeetCode problem</a>, this post will be a succinct overview of an efficient solution. This problem is great because it&rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.</p>
-<h3 id=the-problem>The Problem<a hidden class=anchor aria-hidden=true href=#the-problem>#</a></h3>
+<div class=post-content><p>For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the <a href=/2021/11/leetcode-set-matrix-zeroes-part-1/>last LeetCode problem</a>, this post will be a succinct overview of an efficient solution. This problem is great because it&rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.</p>
+<h2 id=the-problem>The Problem<a hidden class=anchor aria-hidden=true href=#the-problem>#</a></h2>
 <p>The problem, <a href=https://leetcode.com/problems/number-of-islands/>Number of Islands - LeetCode</a> is as follows:</p>
 <blockquote>
 <p>Given an <code>m x n</code> 2D binary grid <code>grid</code> which represents a map of <code>'1'</code>s (land) and <code>'0'</code>s (water), return <em>the number of islands</em>.</p>
@@ -121,7 +112,7 @@ LeetCode: Number of Islands
 <li><code>grid[i][j]</code> is <code>'0'</code> or <code>'1'</code>.</li>
 </ul>
 </blockquote>
-<h5 id=example>Example:<a hidden class=anchor aria-hidden=true href=#example>#</a></h5>
+<h3 id=example>Example<a hidden class=anchor aria-hidden=true href=#example>#</a></h3>
 <pre tabindex=0><code>Input: 
 grid = [['1', '1', '1', '1'],
         ['1', '1', '0', '0'],
@@ -129,7 +120,7 @@ grid = [['1', '1', '1', '1'],
         ['1', '0', '0', '0']]
 
 Output: 3
-</code></pre><h3 id=approach>Approach:<a hidden class=anchor aria-hidden=true href=#approach>#</a></h3>
+</code></pre><h2 id=approach>Approach<a hidden class=anchor aria-hidden=true href=#approach>#</a></h2>
 <p>The approach leverages recursion and uses <a href=https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/>depth-first search (DFS)</a> to discover <em><strong>all</strong></em> elements composing a single island. Then, we must simply count each island that is fully discovered.</p>
 <ul>
 <li>First, find an island. If no island is found, the expected output is <code>0</code>.</li>
@@ -179,8 +170,8 @@ Output: 3
         }
     }
 };
-</code></pre></div><h3 id=run-time>Run-time:<a hidden class=anchor aria-hidden=true href=#run-time>#</a></h3>
-<p>Note that through the nested loops in the <code>numIslands</code> function, we will visit each element once (input size is $m \times n$) to find the land of an island. However, during the DFS search in <code>destroyIslands</code>, we may visit elements that have not yet been visited by the outer loops. That means each node may be visited twice in the worst case, so we see a run-time of <code>O(m * n)</code>.</p>
+</code></pre></div><h2 id=run-time>Run-time<a hidden class=anchor aria-hidden=true href=#run-time>#</a></h2>
+<p>Note that through the nested loops in the <code>numIslands</code> function, we will visit each element once (input size is <code>m * n</code>) to find the land of an island. However, during the DFS search in <code>destroyIslands</code>, we may visit elements that have not yet been visited by the outer loops. That means each node may be visited twice in the worst case, so we see a run-time of <code>O(m * n)</code>.</p>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>

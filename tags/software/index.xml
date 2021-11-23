@@ -16,7 +16,7 @@
       <pubDate>Mon, 22 Nov 2021 19:24:35 -0800</pubDate>
       
       <guid>https://twtrs.com/2021/11/leetcode-number-of-islands/</guid>
-      <description>LeetCode: Number of Islands For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it&amp;rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.</description>
+      <description>For the second entry in the LeetCode series, I will be discussing another medium-difficulty problem. However, unlike the in-depth analysis covered in the last LeetCode problem, this post will be a succinct overview of an efficient solution. This problem is great because it&amp;rsquo;s easily to visualize the input, and it does not have a lot of constraints. It also never hurts to have more practice with multidimensional arrays + graph searching algorithms.</description>
     </item>
     
     <item>
