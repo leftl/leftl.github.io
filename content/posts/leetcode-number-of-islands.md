@@ -39,7 +39,6 @@ The approach leverages recursion and uses [depth-first search (DFS)](https://www
 - Repeat this process for all elements in the input, *grid*.
 - Return the value of the counter.
 
-It's worth noting that since the input is passed by reference, the modifications made to the input will modify the data in the caller's scope. However, since there is no restriction against this, we can save time & space by not creating a copy of the grid and instead directly modify the input.
 
 ```c++
 class Solution {
@@ -83,6 +82,8 @@ public:
     }
 };
 ```
+
+It's worth noting that since the input is passed by reference, the modifications to the input will modify the data in the caller's scope. However, since there is no restriction against this, we can save time & space by not creating a copy of the grid and instead directly modify the input.
 
 ## Run-time
 Note that through the nested loops in the `numIslands` function, we will visit each element once (input size is `m * n`) to find the land of an island. However, during the DFS search in `destroyIslands`, we may visit elements that have not yet been visited by the outer loops. That means each node may be visited twice in the worst case, so we see a run-time of `O(m * n)`.
