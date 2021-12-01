@@ -15,6 +15,8 @@ The main advantage of GraphQL is the ability for the client to decide what infor
 ## Querying for Data
 Follow along with the examples by using the interactive query editor [GraphQL Pokemon](https://graphqlpokemon.favware.tech/), so you can try the queries yourself right in your browser.
 
+![GrapgQL Pokemon](graphql-pokemon.png)
+
 ### Basic Query
 To retrieve data, we must write a ***query*** to define what data is needed. First, let's find the color of the pokemon, Machop. In the **DOCS** tab, we can see there is a `getPokemon` query that can take a pokemon's name (all values are listed in the **SCHEMA** tab under `PokemonEnum`) as an argument.  To retrieve Machop's color, simply query:
 
