@@ -1,5 +1,5 @@
 ---
-title: "An Introduction to Graphql"
+title: "An Introduction to GraphQL"
 date: 2021-11-29T20:06:22-08:00
 draft: flase
 tags: ["software", "development", "API", "graphql"]
@@ -10,10 +10,10 @@ tags: ["software", "development", "API", "graphql"]
 GraphQL is a query language developed by Facebook; It has become popular for retrieving data over HTTP from various backends/databases under a single API (or even databases directly). That is, data is accessible from potentially different sources under a single query language. There are libraries, for both server and client functions, in *many* languages, including Java, Python, C/C++, JavaScript, etc.
 
 ## Why GraphQL?
-The main advantage of GraphQL is the ability for the client to decide what information is returned by a single query. This allows for less data to be sent from the API server. Additionally, this simplifies code on the client end since there will be less parsing of the returned data. GraohQL allows for cleaner code and bandwidth, which is a win-win!
+The main advantage of GraphQL is the ability for the client to decide what information is returned by a single query. This allows for less data to be sent from the API server. Additionally, this simplifies code on the client end since there will be less parsing of the returned data. GraohQL allows for cleaner code and less bandwidth, which is a win-win!
 
 ## Querying for Data
-Follow along with the examples by using the interactive query editor [GraphQL Pokemon](https://graphqlpokemon.favware.tech/), so you can try the queries yourself right in your browser.
+Follow along with the examples by using the interactive query editor [GraphQL Pokemon](https://graphqlpokemon.favware.tech/), so you can try the queries yourself right in your browser. The dataset is, as you can probably guess, Pokemon and their attributes.
 
 ![GrapgQL Pokemon](graphql-pokemon.png)
 
@@ -39,10 +39,10 @@ Then, the following data is returned in the JSON format:
 }
 ```
 
-Notice that though the  `Pokemon` object has over 20 fields, the response only contains the field that was queried for: `color`.
+Notice that though the  `Pokemon` object has over 20 fields, the response only contains the field that was queried for: `color`. Additionally, since the data is returned in JSON format, it can be easily parsed like a map/dictionary (i.e. foo['data']['getPokemon']['color'] will hold the color, "Gray").
 
 ### Query with Nested Type
-Now, let's try to find the color, type(s), pokedex-number, and evolutions of Charmander.
+Now, let's try to find the color, type(s), pokedex-number, and evolutions of Charmander. This will be similar to the last query, but will contain more fields inside `getPokemon`.
 
 ```
 {
@@ -77,10 +77,10 @@ After submitting the query, we get the following data back:
 }
 ```
 
-Unlike the previous query, this query contains a list of `types` (denoted by surrounding `[``]`), but more interestingly, `evolutions` contains a list of `Pokemon` objects inside of the object containing data for Charmander. Next, let's query for the species, color, type(s), and pokedex-number of *both* Charmander and its evolution, Charmeleon.
+Unlike the previous query, this query contains a list of `types` (denoted by surrounding `[``]`). More interestingly, `evolutions` contains a list of `Pokemon` objects inside of the object containing data for Charmander. This means you could easily fetch all evolutions of a single pokemon, each being embedded inside of the pre-evolution species. Next, let's query for the species, color, type(s), and pokedex-number of *both* Charmander and its evolution, Charmeleon.
 
 ### Query with Fragments
-Luckily, rather than duplicating all of the fields and bloating the query, can be used ***fragments*** to represent a set of fields to be queried. This is accomplished as follows:
+Luckily, rather than duplicating all of the fields and bloating the query, ***fragments*** can be used to represent a set of fields to be queried. This is accomplished as follows:
 
 ```
 {
