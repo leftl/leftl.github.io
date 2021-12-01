@@ -117,6 +117,8 @@ An Introduction to GraphQL
 <p>The main advantage of GraphQL is the ability for the client to decide what information is returned by a single query. This allows for less data to be sent from the API server. Additionally, this simplifies code on the client end since there will be less parsing of the returned data. GraohQL allows for cleaner code and less bandwidth, which is a win-win!</p>
 <h2 id=querying-for-data>Querying for Data<a hidden class=anchor aria-hidden=true href=#querying-for-data>#</a></h2>
 <p>Follow along with the examples by using the interactive query editor <a href=https://graphqlpokemon.favware.tech/>GraphQL Pokemon</a>, so you can try the queries yourself right in your browser. The dataset is, as you can probably guess, Pokemon and their attributes.</p>
+<p><img loading=lazy src=graphql-pokemon.png alt="GrapgQL Pokemon">
+</p>
 <h3 id=basic-query>Basic Query<a hidden class=anchor aria-hidden=true href=#basic-query>#</a></h3>
 <p>To retrieve data, we must write a <em><strong>query</strong></em> to define what data is needed. First, let&rsquo;s find the color of the pokemon, Machop. In the <strong>DOCS</strong> tab, we can see there is a <code>getPokemon</code> query that can take a pokemon&rsquo;s name (all values are listed in the <strong>SCHEMA</strong> tab under <code>PokemonEnum</code>) as an argument. To retrieve Machop&rsquo;s color, simply query:</p>
 <pre tabindex=0><code>{
