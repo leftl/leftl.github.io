@@ -9,7 +9,61 @@
       <link>https://twtrs.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 29 Nov 2021 20:06:22 -0800</lastBuildDate><atom:link href="https://twtrs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 21:38:08 -0800</lastBuildDate><atom:link href="https://twtrs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>containers</title>
+      <link>https://twtrs.com/tags/containers/</link>
+      <pubDate>Mon, 06 Dec 2021 21:38:08 -0800</pubDate>
+      
+      <guid>https://twtrs.com/tags/containers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://twtrs.com/tags/development/</link>
+      <pubDate>Mon, 06 Dec 2021 21:38:08 -0800</pubDate>
+      
+      <guid>https://twtrs.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://twtrs.com/tags/docker/</link>
+      <pubDate>Mon, 06 Dec 2021 21:38:08 -0800</pubDate>
+      
+      <guid>https://twtrs.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://twtrs.com/tags/javascript/</link>
+      <pubDate>Mon, 06 Dec 2021 21:38:08 -0800</pubDate>
+      
+      <guid>https://twtrs.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>node</title>
+      <link>https://twtrs.com/tags/node/</link>
+      <pubDate>Mon, 06 Dec 2021 21:38:08 -0800</pubDate>
+      
+      <guid>https://twtrs.com/tags/node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://twtrs.com/tags/software/</link>
+      <pubDate>Mon, 06 Dec 2021 21:38:08 -0800</pubDate>
+      
+      <guid>https://twtrs.com/tags/software/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>API</title>
       <link>https://twtrs.com/tags/api/</link>
@@ -20,29 +74,11 @@
     </item>
     
     <item>
-      <title>development</title>
-      <link>https://twtrs.com/tags/development/</link>
-      <pubDate>Mon, 29 Nov 2021 20:06:22 -0800</pubDate>
-      
-      <guid>https://twtrs.com/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>graphql</title>
       <link>https://twtrs.com/tags/graphql/</link>
       <pubDate>Mon, 29 Nov 2021 20:06:22 -0800</pubDate>
       
       <guid>https://twtrs.com/tags/graphql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://twtrs.com/tags/software/</link>
-      <pubDate>Mon, 29 Nov 2021 20:06:22 -0800</pubDate>
-      
-      <guid>https://twtrs.com/tags/software/</guid>
       <description></description>
     </item>
     

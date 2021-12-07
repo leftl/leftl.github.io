@@ -9,7 +9,17 @@
       <link>https://twtrs.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 29 Nov 2021 20:06:22 -0800</lastBuildDate><atom:link href="https://twtrs.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 21:38:08 -0800</lastBuildDate><atom:link href="https://twtrs.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Containerizing a Simple Node Application with Docker</title>
+      <link>https://twtrs.com/2021/12/containerizing-a-simple-node-application-with-docker/</link>
+      <pubDate>Mon, 06 Dec 2021 21:38:08 -0800</pubDate>
+      
+      <guid>https://twtrs.com/2021/12/containerizing-a-simple-node-application-with-docker/</guid>
+      <description>Containers, which may be well past their prime as the &amp;ldquo;hottest new technology&amp;rdquo;, still have a strong use case in the development and delivery of software.
+A container wraps up all of the software needed to run an application into a single &amp;ldquo;runtime&amp;rdquo;. This includes the application itself, and all of the dependencies wrapped up in a developer-defined environment. Any given container will run the same on all hardware and operating systems, as long as the container platform is installed.</description>
+    </item>
+    
     <item>
       <title>An Introduction to GraphQL</title>
       <link>https://twtrs.com/2021/11/an-introduction-to-graphql/</link>

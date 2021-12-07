@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>javascript on [tyler@twtrs.com] ~ $</title>
+    <link>https://twtrs.com/tags/javascript/</link>
+    <description>Recent content in javascript on [tyler@twtrs.com] ~ $</description>
+    <image>
+      <url>https://twtrs.com/papermod-cover.png</url>
+      <link>https://twtrs.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 06 Dec 2021 21:38:08 -0800</lastBuildDate><atom:link href="https://twtrs.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Containerizing a Simple Node Application with Docker</title>
+      <link>https://twtrs.com/2021/12/containerizing-a-simple-node-application-with-docker/</link>
+      <pubDate>Mon, 06 Dec 2021 21:38:08 -0800</pubDate>
+      
+      <guid>https://twtrs.com/2021/12/containerizing-a-simple-node-application-with-docker/</guid>
+      <description>Containers, which may be well past their prime as the &amp;ldquo;hottest new technology&amp;rdquo;, still have a strong use case in the development and delivery of software.
+A container wraps up all of the software needed to run an application into a single &amp;ldquo;runtime&amp;rdquo;. This includes the application itself, and all of the dependencies wrapped up in a developer-defined environment. Any given container will run the same on all hardware and operating systems, as long as the container platform is installed.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,7 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://twtrs.com/</loc>
-    <lastmod>2021-11-29T20:06:22-08:00</lastmod>
+    <lastmod>2021-12-06T21:38:08-08:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/2021/12/containerizing-a-simple-node-application-with-docker/</loc>
+    <lastmod>2021-12-06T21:38:08-08:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/containers/</loc>
+    <lastmod>2021-12-06T21:38:08-08:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/development/</loc>
+    <lastmod>2021-12-06T21:38:08-08:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/docker/</loc>
+    <lastmod>2021-12-06T21:38:08-08:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/javascript/</loc>
+    <lastmod>2021-12-06T21:38:08-08:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/node/</loc>
+    <lastmod>2021-12-06T21:38:08-08:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/posts/</loc>
+    <lastmod>2021-12-06T21:38:08-08:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/software/</loc>
+    <lastmod>2021-12-06T21:38:08-08:00</lastmod>
+  </url><url>
+    <loc>https://twtrs.com/tags/</loc>
+    <lastmod>2021-12-06T21:38:08-08:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/2021/11/an-introduction-to-graphql/</loc>
     <lastmod>2021-11-29T20:06:22-08:00</lastmod>
@@ -11,19 +38,7 @@
     <loc>https://twtrs.com/tags/api/</loc>
     <lastmod>2021-11-29T20:06:22-08:00</lastmod>
   </url><url>
-    <loc>https://twtrs.com/tags/development/</loc>
-    <lastmod>2021-11-29T20:06:22-08:00</lastmod>
-  </url><url>
     <loc>https://twtrs.com/tags/graphql/</loc>
-    <lastmod>2021-11-29T20:06:22-08:00</lastmod>
-  </url><url>
-    <loc>https://twtrs.com/posts/</loc>
-    <lastmod>2021-11-29T20:06:22-08:00</lastmod>
-  </url><url>
-    <loc>https://twtrs.com/tags/software/</loc>
-    <lastmod>2021-11-29T20:06:22-08:00</lastmod>
-  </url><url>
-    <loc>https://twtrs.com/tags/</loc>
     <lastmod>2021-11-29T20:06:22-08:00</lastmod>
   </url><url>
     <loc>https://twtrs.com/tags/algorithms/</loc>
