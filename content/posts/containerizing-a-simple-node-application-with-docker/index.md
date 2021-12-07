@@ -1,7 +1,7 @@
 ---
 title: "Containerizing a Simple Node Application with Docker"
 date: 2021-12-06T21:38:08-08:00
-draft: true
+draft: false
 tags: ["software", "development", "containers", "docker", "javascript", "node"]
 ---
 
