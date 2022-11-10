@@ -36,10 +36,10 @@ The Solution Recalling our constant-space requirement, and the conflicts that ca
       <guid>https://twtrs.com/2021/11/leetcode-set-matrix-zeroes-part-1/</guid>
       <description>This problem, of medium difficulty, sounds trivial at first glance. However, given the constraints, it&amp;rsquo;s not as straightforward as it initially appears.
 The Problem The problems is set-up as seen here: Set Matrix Zeroes - LeetCode
- Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0&amp;rsquo;s, and return the matrix.
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0&amp;rsquo;s, and return the matrix.
 You must do it in place.
 Constraints:
- m == matrix.</description>
+m == matrix.</description>
     </item>
     
     <item>

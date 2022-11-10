@@ -46,7 +46,7 @@ Why GraphQL? The main advantage of GraphQL is the ability for the client to deci
       
       <guid>https://twtrs.com/2021/11/obsibian-smart-plaintext-notes/</guid>
       <description>Obsibian: Smart Plaintext Notes Obsidian is a modern cross-platform note-taking application. By adapting my note-taking habits to fit the strengths of Obsidian, my notes have become more meaningful in content and reviewability. Those familiar with Notion and similar note-taking applications will feel right at home, but what makes Obsidian different?
-Features: Backlinking  The star of the show: linking notes to build connections. It sounds pretty inconsequential, but it is great for helping structure your notes in more meaningful ways improving the value of your notes.</description>
+Features: Backlinking The star of the show: linking notes to build connections. It sounds pretty inconsequential, but it is great for helping structure your notes in more meaningful ways improving the value of your notes.</description>
     </item>
     
     <item>
@@ -67,10 +67,10 @@ The Solution Recalling our constant-space requirement, and the conflicts that ca
       <guid>https://twtrs.com/2021/11/leetcode-set-matrix-zeroes-part-1/</guid>
       <description>This problem, of medium difficulty, sounds trivial at first glance. However, given the constraints, it&amp;rsquo;s not as straightforward as it initially appears.
 The Problem The problems is set-up as seen here: Set Matrix Zeroes - LeetCode
- Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0&amp;rsquo;s, and return the matrix.
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0&amp;rsquo;s, and return the matrix.
 You must do it in place.
 Constraints:
- m == matrix.</description>
+m == matrix.</description>
     </item>
     
     <item>
