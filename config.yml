@@ -78,16 +78,17 @@ params:
 
     homeInfoParams:
         Title: "Hi, I'm Tyler Waters"
-        Content: >
-            Computer Science Undergrad @ the University of Washington.
+        Content: Software dev and technology enthusiast interested in backend & system development, as well as container & network orchestration.
 
-            - Currently looking for a software development internship for the Summer of 2022.
+            - Currently developing tools for server provisioning and fleet management.
 
-            - To request a resume, or just say hello, please see my email below:
+            - This is a personal blog, all opinions are my own.
 
     socialIcons:
         - name: github
           url: "https://github.com/leftl"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/tyler-waters1"
         - name: email
           url: "mailto:tyler@twtrs.com"
         - name: RSS
